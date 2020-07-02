@@ -1,5 +1,5 @@
 {
-  "homepage": "https://quentinbriday.github.io/react-portfolio",
+  "homepage": "https://quentinbriday.github.io/quentinbriday.github.io",
   "name": "my_portfolio",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,7 @@
     "yarn": "^1.22.4"
   },
   "scripts": {
-	"predeploy": "npm run build",
+	"predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
