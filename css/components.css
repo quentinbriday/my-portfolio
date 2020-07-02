@@ -1,0 +1,12 @@
+h1 {
+	text-align: center;
+}
+
+section{
+	/**border: 3px solid red;**/
+}
+
+main p{
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
