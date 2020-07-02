@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/quentinbriday.github.io/static/css/main.9c405617.chunk.css",
-    "main.js": "/quentinbriday.github.io/static/js/main.b15bf8d3.chunk.js",
-    "main.js.map": "/quentinbriday.github.io/static/js/main.b15bf8d3.chunk.js.map",
-    "runtime-main.js": "/quentinbriday.github.io/static/js/runtime-main.d3a2cd84.js",
-    "runtime-main.js.map": "/quentinbriday.github.io/static/js/runtime-main.d3a2cd84.js.map",
-    "static/js/2.3c455998.chunk.js": "/quentinbriday.github.io/static/js/2.3c455998.chunk.js",
-    "static/js/2.3c455998.chunk.js.map": "/quentinbriday.github.io/static/js/2.3c455998.chunk.js.map",
-    "index.html": "/quentinbriday.github.io/index.html",
-    "precache-manifest.075e2ae6ebb7a58461c06bcbc5dc0ece.js": "/quentinbriday.github.io/precache-manifest.075e2ae6ebb7a58461c06bcbc5dc0ece.js",
-    "service-worker.js": "/quentinbriday.github.io/service-worker.js",
-    "static/css/main.9c405617.chunk.css.map": "/quentinbriday.github.io/static/css/main.9c405617.chunk.css.map",
-    "static/js/2.3c455998.chunk.js.LICENSE.txt": "/quentinbriday.github.io/static/js/2.3c455998.chunk.js.LICENSE.txt"
+    "main.css": "/my_portfolio/static/css/main.9c405617.chunk.css",
+    "main.js": "/my_portfolio/static/js/main.21136281.chunk.js",
+    "main.js.map": "/my_portfolio/static/js/main.21136281.chunk.js.map",
+    "runtime-main.js": "/my_portfolio/static/js/runtime-main.ce1d07ae.js",
+    "runtime-main.js.map": "/my_portfolio/static/js/runtime-main.ce1d07ae.js.map",
+    "static/js/2.3c455998.chunk.js": "/my_portfolio/static/js/2.3c455998.chunk.js",
+    "static/js/2.3c455998.chunk.js.map": "/my_portfolio/static/js/2.3c455998.chunk.js.map",
+    "index.html": "/my_portfolio/index.html",
+    "precache-manifest.655f49dd6846b959266785b62e9f77e8.js": "/my_portfolio/precache-manifest.655f49dd6846b959266785b62e9f77e8.js",
+    "service-worker.js": "/my_portfolio/service-worker.js",
+    "static/css/main.9c405617.chunk.css.map": "/my_portfolio/static/css/main.9c405617.chunk.css.map",
+    "static/js/2.3c455998.chunk.js.LICENSE.txt": "/my_portfolio/static/js/2.3c455998.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d3a2cd84.js",
+    "static/js/runtime-main.ce1d07ae.js",
     "static/js/2.3c455998.chunk.js",
     "static/css/main.9c405617.chunk.css",
-    "static/js/main.b15bf8d3.chunk.js"
+    "static/js/main.21136281.chunk.js"
   ]
 }
