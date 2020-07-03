@@ -125,7 +125,7 @@
 }
 
 .back .contact{
-	top: 22.5rem;
+	top: 25rem;
 	background-color: #bdcad9;
 	background-image: linear-gradient(315deg, #bdcad9 0%, #e1dada 74%);
 	padding: 5px;
@@ -163,6 +163,9 @@
 	}
 	
 	.finger-img{
+		width: 50%;
+		height: 50%;
+		left: 1rem;
 		display: block;
 		animation: finger_clicking;
 		animation-iteration-count: infinite;
@@ -202,15 +205,15 @@
 
 @media only screen and (min-width: 600px) {
 	.front .intro-text{
-		width: 120vh;
+		width: 80rem;;
 	}
 	
 	.mouse-img{
 		position: absolute;
 		width: 5%;
 		height: 5%;
-		right: 31vh;
-		bottom: 22vh;
+		right: 14rem;
+		bottom: 14rem;
 		animation: mouse_moving;
 		animation-iteration-count: infinite;
 		transform-origin: 50% 100%;
@@ -223,14 +226,14 @@
 	
 	.back h2{
 		transform: rotate(6deg);
-		left: 15vh;
-		margin-right: 120vh;
-		margin-left: 5vh;
+		left: 8rem;
+		margin-right: 60rem;
+		margin-left: 1rem;
 	}
 	
 	.back .contact{
 		transform: rotate(-5deg);
-		margin-right: 110vh;
-		left: 23vh;
+		margin-right: 50rem;
+		left: 12rem;
 	}
 }
