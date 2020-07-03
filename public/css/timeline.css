@@ -27,7 +27,7 @@
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .content{
     letter-spacing: 1px;
     padding: 0;
@@ -47,7 +47,7 @@
 
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1024px) {
   .timeline-body{
     margin-left: 25rem;
     margin-right: 25rem;
