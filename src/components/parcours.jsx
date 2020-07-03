@@ -23,10 +23,10 @@ export default class Parcours extends Component {
         <div className="timeline">
           <div className="timeline-body">
             <div className="timeline-item">
-              <p className="time">Fev - Mai 2019</p>
+              <p className="time">Fev - Août 2019</p>
               <div className="content">
-                <h2 className="title">Stage dans la société LEA-Agri</h2>
-                <p>Il s'agit du stage réalisé lors de mes études en informatique de gestion. J'ai mis à contribution mes connaissances en analyse, gestion de base de données, et y ai appris l'utilisation du framework PHP Symfony. Cette expérience fut un enrichissement merveilleux pour le travail en entreprise.</p>
+                <h2 className="title">Stage et job étudiant dans la société LEA-Agri</h2>
+                <p>Il s'agit du stage réalisé lors de mes études en informatique de gestion. Mes connaissances en analyse et gestion de base de données y ont été mises à contribution, et j'ai appris l'utilisation du framework PHP Symfony. Cette expérience fut un enrichissement merveilleux pour le travail en entreprise, et a débouché sur un job étudiant d'une durée de deux mois.</p>
               </div>
             </div>
           </div>

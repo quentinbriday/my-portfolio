@@ -1,6 +1,6 @@
 .intro-container {
   width: 100%;
-  height: 80vh;
+  height: 40rem;
   overflow: hidden;
   position: relative;
 }
@@ -17,9 +17,9 @@
   font-family: 'Satisfy', cursive;
   color: lightgrey;
   text-align: center;
-  margin-top: 25vh;
+  margin-top: 12rem;
   -webkit-text-stroke: 2px black;
-  font-size: 11.2vh;
+  font-size: 5.5rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -30,6 +30,15 @@
 	}
 	100%{
 		transform: translate(0, 0);
+	}
+}
+
+@keyframes finger_clicking{
+	50%{
+		transform: scale(2);
+	}
+	100%{
+		transform: scale(1);
 	}
 }
 
@@ -90,23 +99,24 @@
 }
 
 .back h1{
-	margin-top: 5vh;
-	margin-right: 100vh;
-	left: 10vh;
-	background-color: #28ebeb;
+	top: 1.5rem;
+	margin-right: 50rem;
+	left: 3rem;
+	background-color: #bdd4e7;
+	background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
 	padding: 5px;
 	transform: rotate(-8deg);
 	z-index: 3;
 	border-right: dashed black 2px;
 	border-bottom: dashed black 2px;
-	font-size: 8vh;
+	font-size: 3rem;
 	position: absolute;
 }
 
 .back h2{
-	top: 18.5vh;
-	
-	background-color: #e33720;
+	top: 8.5rem;
+	background-color: #b3cdd1;
+	background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
 	padding: 5px;
 	z-index: 2;
 	border-right: dashed black 2px;
@@ -115,11 +125,10 @@
 }
 
 .back .contact{
-	
-	top: 48vh;
-	background-color: #f0e118;
+	top: 22.5rem;
+	background-color: #bdcad9;
+	background-image: linear-gradient(315deg, #bdcad9 0%, #e1dada 74%);
 	padding: 5px;
-	
 	z-index: 1;
 	border-right: dashed black 2px;
 	border-bottom: dashed black 2px;
@@ -134,8 +143,8 @@
 
 .back img{
 	position: absolute;
-	right: 20vh;
-	top: 8vh;
+	right: 3rem;
+	top: 5rem;
 	height: 100%;
 	width: 60%;
 }
@@ -151,6 +160,14 @@
 	
 	.mouse-img{
 		display: none;
+	}
+	
+	.finger-img{
+		display: block;
+		animation: finger_clicking;
+		animation-iteration-count: infinite;
+		transform-origin: 50% 100%;
+		animation-duration: 1500ms;
 	}
 	
 	.back h1{
@@ -198,6 +215,10 @@
 		animation-iteration-count: infinite;
 		transform-origin: 50% 100%;
 		animation-duration: 1500ms;
+	}
+	
+	.finger-img{
+		display: none;
 	}
 	
 	.back h2{

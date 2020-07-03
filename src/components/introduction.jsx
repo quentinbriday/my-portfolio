@@ -8,7 +8,7 @@ export default class Sidebar extends Component {
       <div className="intro-container">
         <div className="front">
           <div className="intro-text">
-            <h1 data-splitting className="headline--jump">Qui suis-je ? <img alt="mouse" className="mouse-img" src="images/mouse.png"></img></h1>
+            <h1 data-splitting className="headline--jump">Qui suis-je ? <img alt="mouse" className="mouse-img" src="images/mouse.png"></img><img alt="finger" className="finger-img" src="images/finger.png"></img></h1>
 		  </div>
         </div>
         <div className="back hide-start">

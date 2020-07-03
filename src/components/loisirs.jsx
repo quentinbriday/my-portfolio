@@ -46,8 +46,8 @@ export default class Loisir extends Component {
           <div className="loisir-content">
             <h1>4</h1>
             <div className="loisir-box">
-              <h2>Les jeux vidéos</h2>
-              <p>Grand fan de RPG, j'aime les jeux dont l'ambiance m'aspire et qui me font relever des défis.</p>
+              <h2>La musculation</h2>
+              <p>Le fitness et la musculation me poussent à me dépasser sans cesse et à améliorer ma condition physique.</p>
             </div>
           </div>
           <div className="bg bg4" />
