@@ -35,7 +35,7 @@
 
 @keyframes finger_clicking{
 	50%{
-		transform: scale(2);
+		transform: scale(1.5);
 	}
 	100%{
 		transform: scale(1);
@@ -163,10 +163,12 @@
 	}
 	
 	.finger-img{
-		width: 50%;
-		height: 50%;
-		left: 1rem;
+		position: absolute;
 		display: block;
+		width: 20%;
+		height: 20%;
+		left: 13rem;
+		bottom: 6rem;
 		animation: finger_clicking;
 		animation-iteration-count: infinite;
 		transform-origin: 50% 100%;
