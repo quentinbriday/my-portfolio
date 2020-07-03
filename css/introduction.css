@@ -100,7 +100,6 @@
 
 .back h1{
 	top: 1.5rem;
-	margin-right: 50rem;
 	left: 3rem;
 	background-color: #bdd4e7;
 	background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
@@ -149,7 +148,7 @@
 	width: 60%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
 	.intro-container{
 		height: 50rem;
 		width: 100%
@@ -205,10 +204,20 @@
 		left: 5vh;
 	}
 }
+@media only screen and (min-width: 768px) {
+	.back h2{
+		margin-right: 16rem;
+	}
+	
+	.back .contact{
+		top: 26.5rem;
+		left: 25rem;
+	}
+}
 
-@media only screen and (min-width: 600px) {
-	.front .intro-text{
-		width: 80rem;;
+@media only screen and (min-width: 1024px) {
+	.finger-img{
+		display: none;
 	}
 	
 	.mouse-img{
@@ -223,20 +232,38 @@
 		animation-duration: 1500ms;
 	}
 	
-	.finger-img{
-		display: none;
-	}
-	
 	.back h2{
 		transform: rotate(6deg);
 		left: 8rem;
-		margin-right: 60rem;
+		margin-right: 45rem;
 		margin-left: 1rem;
+		top: 9.3rem;
 	}
 	
 	.back .contact{
 		transform: rotate(-5deg);
 		margin-right: 50rem;
 		left: 12rem;
+	}
+}
+
+@media only screen and (min-width: 1281px) {
+	
+	.back h2{
+		margin-right: 50rem;
+		top: 9.3rem;
+	}
+		
+}
+
+@media only screen and (min-width: 1441px) {
+	.front .intro-text{
+		width: 80rem;;
+	}
+	
+	.back h2{
+		top: 8.5rem;
+		margin-right: 60rem;
+		margin-left: 1rem;
 	}
 }
