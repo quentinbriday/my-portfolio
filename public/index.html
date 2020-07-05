@@ -42,8 +42,14 @@
 		$(".back").removeClass('hide-start')
 		$(".back").addClass("appear")
       });
-	  
-	  
+	  $(document).on('mouseover', '.tooltip', function(){
+		$(".competence-container").css({"overflow" : "visible"})
+		$(".competence-container span").css({"display" : "none"})
+	  });
+	  $(document).on('mouseout', '.tooltip', function(){
+		$(".competence-container").css({"overflow" : "hidden"})
+		$(".competence-container span").css({"display" : "block"})
+	  });
     </script>
 	<!-- jQuery -->
     <script src="%PUBLIC_URL%/js/jquery.min.js"></script>

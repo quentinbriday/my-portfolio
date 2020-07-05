@@ -6,7 +6,7 @@ export default class Sidebar extends Component {
 		<main>
 			<section data-section="credits">
 				<div className="credits-container">
-					<legend>Ce portfolio a vu le jour durant le confinement, né d'une fusion entre mon ennui et mon désir d'apprendre le framework <i>React.js</i>.</legend>
+					<legend>Ce portfolio a vu le jour durant le confinement, né de la fusion entre mon ennui et mon désir d'apprendre le framework <i>React.js</i>.</legend>
 				</div>
 			</section>
 		</main>
