@@ -243,6 +243,10 @@
 		border-bottom: none;
 	}
 	
+	.tooltip .tooltiptext{
+		max-width: 200px;
+	}
+	
 	.competences{
 		max-width: 105px;
 	}
