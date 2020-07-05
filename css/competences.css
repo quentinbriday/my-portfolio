@@ -42,9 +42,76 @@
 }
 
 .competence-container p{
+  display: inline-block;
   font-weight: bold;
   margin: 0;
 }
+
+.competence-container .competences{
+	display: inline-block;
+	font-weight: bold;
+	margin: 0;
+}
+
+.tooltip{
+	display: inline-block;
+	position: relative;
+	border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  font-size: 0.8rem;
+  visibility: hidden;
+  width: max-content;
+  background-color: #555;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 0;
+  padding-right: 1rem;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.tooltip .tooltiptext ul{
+  list-style: none;
+}
+
+.t-left{
+  left: 50%;
+  margin-left: -60px;
+}
+
+.t-right{
+  right: 50%;
+  margin-right: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.t-left::after{
+	left: 60px;
+}
+
+.t-right::after{
+	right: 60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
 .competence-container span{
   position: absolute;
   display: block;
@@ -148,7 +215,7 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
 	.competence-container{
 	  padding-left: 1rem;
 	  padding-right: 1rem;
@@ -159,7 +226,7 @@
 		font-size: 12px;
 	}
 	
-	.competence-container p{
+	.competence-container .competences{
 		font-size: 10px;
 	}
 	
@@ -170,6 +237,14 @@
 	
 	.competence-container:nth-child(1) svg{
 	  width: 1.5rem;
+	}
+	
+	.tooltip{
+		border-bottom: none;
+	}
+	
+	.competences{
+		max-width: 105px;
 	}
 }
 
