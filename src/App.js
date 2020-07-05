@@ -5,6 +5,7 @@ import Sidebar from './components/sidebar'
 import Parcours from './components/parcours'
 import Competences from './components/competences'
 import Loisirs from './components/loisirs'
+import Credits from './components/credits'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 				<Parcours></Parcours>
 				<Competences></Competences>
 				<Loisirs></Loisirs>
+				<Credits></Credits>
           	</div>
       	</div>
       </div>
