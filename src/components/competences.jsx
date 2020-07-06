@@ -19,17 +19,17 @@ export default class Competences extends Component {
         </svg>
         <h1 className="competence-title">Langages</h1>
 		<div className="competences">
-			<div className="tooltip">PHP<div class="tooltiptext t-left"><ul><li>Langage utilisé lors de mon stage</li><li>Réalisation d'un site de randonnées en 2ème année</li><li>Intérêt porté aux framework de ce langage</li></ul></div></div>
+			<div className="tooltip">PHP<div class="tooltiptext t-left"><ul><li>Langage utilisé lors de mon stage</li><li>Réalisation d'un site de randonnées en 2ème année</li><li>Intérêt porté aux framework de ce langage</li><li>Deux ans d'apprentissage scolaire</li></ul></div></div>
 			 / 
-			<div className="tooltip">Python<div class="tooltiptext t-left"><ul><li>Langage utilisé en algorithmique lors de ma passerelle en bioinformatique</li><li>Langage utilisé sur le site Codingame</li></ul></div></div>
+			<div className="tooltip">Python<div class="tooltiptext t-left"><ul><li>Langage utilisé en algorithmique lors de ma passerelle en bioinformatique</li><li>Langage utilisé sur le site Codingame</li><li>Un an d'apprentissage scolaire</li></ul></div></div>
 			 / 
-			<div className="tooltip">Java<div class="tooltiptext t-left"><ul><li>Utilisé de ma 1ère à dernière année d'études</li><li>Utilisé pour un grand projet de groupe en 2ème année</li></ul></div></div> 
+			<div className="tooltip">Java<div class="tooltiptext t-left"><ul><li>Utilisé de ma 1ère à dernière année d'études</li><li>Utilisé pour un grand projet de groupe en 2ème année</li><li>Trois ans d'apprentissage scolaire</li></ul></div></div> 
 			 / 
-			<div className="tooltip">HTML - CSS - JavaScript<div class="tooltiptext t-left"><ul><li>Utilisés pour le front-end de tous sites/applications web crées, y compris ce portfolio</li></ul></div></div> 
+			<div className="tooltip">HTML - CSS - JavaScript<div class="tooltiptext t-left"><ul><li>Utilisés pour le front-end de tous sites/applications web crées, y compris ce portfolio</li><li>Trois ans d'apprentissage scolaire</li></ul></div></div> 
 			 / 
-			<div className="tooltip">C++<div class="tooltiptext t-left"><ul><li>Utilisation avec Qt pour recréer le jeu Space-invaders et Asteroid</li></ul></div></div> 
+			<div className="tooltip">C++<div class="tooltiptext t-left"><ul><li>Utilisation avec Qt pour recréer le jeu Space-invaders et Asteroid</li><li>Un an d'apprentissage scolaire</li></ul></div></div> 
 			 / 
-			<div className="tooltip">C#<div class="tooltiptext t-left"><ul><li>Utilisation dans le framework ASP.NET pour le projet sandwich</li></ul></div></div>
+			<div className="tooltip">C#<div class="tooltiptext t-left"><ul><li>Utilisation dans le framework ASP.NET pour le projet sandwich(voir ASP.Net)</li><li>Deux ans d'apprentissage scolaire</li></ul></div></div>
 		</div>
 	  </div>
       <div className="competence-container">
@@ -59,7 +59,7 @@ export default class Competences extends Component {
 			/ 
 			<div className="tooltip">Django (Python)<div class="tooltiptext t-right"><ul><li>Re-implémentation d'un projet de groupe de 2ème année en Django.</li></ul></div></div>
 			/ 
-			<div className="tooltip">ASP.NET<div class="tooltiptext t-right"><ul><li>Implémentation du "projet sandwich"</li></ul></div></div>
+			<div className="tooltip">ASP.NET<div class="tooltiptext t-right"><ul><li>Implémentation du "projet sandwich", un site de gestion d'une sandwicherie recevant des commandes de diverses entreprises</li></ul></div></div>
 			/ 
 			<div className="tooltip">React.js<div class="tooltiptext t-right"><ul><li>Création de ce portfolio</li></ul></div></div>
 		</div>

@@ -228,6 +228,7 @@
 	
 	.competence-container .competences{
 		font-size: 10px;
+		display: block;
 	}
 	
 	.competence-container svg{
@@ -241,6 +242,7 @@
 	
 	.tooltip{
 		border-bottom: none;
+		display: block;
 	}
 	
 	.tooltip .tooltiptext{
