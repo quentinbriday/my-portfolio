@@ -19,7 +19,7 @@ export default class Competences extends Component {
         </svg>
         <h1 className="competence-title">Langages</h1>
 		<div className="competences">
-			<div className="tooltip">PHP<div class="tooltiptext t-left"><ul><li>Langage utilisé lors de mon stage</li><li>Réalisation d'un site de randonnées en 2ème année</li><li>Intérêt porté aux framework de ce langage</li><li>Deux ans d'apprentissage scolaire</li></ul></div></div>
+			<div className="tooltip">PHP<div class="tooltiptext t-left"><ul><li>Langage utilisé lors de mon stage</li><li>Réalisation d'un site de randonnées en 2ème année</li><li>Deux ans d'apprentissage scolaire</li></ul></div></div>
 			 / 
 			<div className="tooltip">Python<div class="tooltiptext t-left"><ul><li>Langage utilisé en algorithmique lors de ma passerelle en bioinformatique</li><li>Langage utilisé sur le site Codingame</li><li>Un an d'apprentissage scolaire</li></ul></div></div>
 			 / 
